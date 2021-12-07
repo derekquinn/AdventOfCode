@@ -19,6 +19,7 @@
 		BF93B16E275B3306008C2052 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B16D275B3306008C2052 /* Board.swift */; };
 		BF93B170275C7E2D008C2052 /* DayFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B16F275C7E2D008C2052 /* DayFive.swift */; };
 		BF93B173275DD009008C2052 /* DaySix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93B172275DD009008C2052 /* DaySix.swift */; };
+		C413B20A275F29B10078E69F /* DaySeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413B209275F29B10078E69F /* DaySeven.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,9 @@
 		BF93B172275DD009008C2052 /* DaySix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySix.swift; sourceTree = "<group>"; };
 		C413B206275F11A00078E69F /* dayFourInput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayFourInput.txt; sourceTree = "<group>"; };
 		C413B207275F13200078E69F /* dayFiveInput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayFiveInput.txt; sourceTree = "<group>"; };
+		C413B208275F161B0078E69F /* daySixInput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = daySixInput.txt; sourceTree = "<group>"; };
+		C413B209275F29B10078E69F /* DaySeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySeven.swift; sourceTree = "<group>"; };
+		C413B20B275F2A140078E69F /* daySevenInput */ = {isa = PBXFileReference; lastKnownFileType = text; path = daySevenInput; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 				BF93B16B275B2E87008C2052 /* DayFour.swift */,
 				BF93B16F275C7E2D008C2052 /* DayFive.swift */,
 				BF93B172275DD009008C2052 /* DaySix.swift */,
+				C413B209275F29B10078E69F /* DaySeven.swift */,
 				BF93B16D275B3306008C2052 /* Board.swift */,
 				BF74290927593D7700A7E13E /* String.swift */,
 				BF74290027593D4A00A7E13E /* Day.swift */,
@@ -104,6 +109,8 @@
 			children = (
 				C413B206275F11A00078E69F /* dayFourInput.txt */,
 				C413B207275F13200078E69F /* dayFiveInput.txt */,
+				C413B208275F161B0078E69F /* daySixInput.txt */,
+				C413B20B275F2A140078E69F /* daySevenInput */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -172,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C413B20A275F29B10078E69F /* DaySeven.swift in Sources */,
 				BF93B170275C7E2D008C2052 /* DayFive.swift in Sources */,
 				BF7428E627592C5500A7E13E /* DayTwo.swift in Sources */,
 				BF74291027593D8900A7E13E /* main.swift in Sources */,
