@@ -10,7 +10,7 @@ import Foundation
 extension AdventOfCode {
     
     public func dayFive() {
-        let rawInput = try! String(contentsOfFile: "/Users/vincent/XCode/AOC2021/AOC2021/inputs/dayFive.txt")
+        let rawInput = try! String(contentsOfFile: "/Users/dereq/Developer/AdventOfCode/AOC2021/Inputs/dayFiveInput.txt")
         //partOne
         let lineInput = rawInput
             .replacingOccurrences(of: "->", with: "")

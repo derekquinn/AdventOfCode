@@ -5,13 +5,13 @@
 //  Created by Vincent Frascello on 12/2/21.
 //
 import Foundation
-import Algorithms
+
 
 extension AdventOfCode {
     
     public func dayThree() {
         
-        let rawInput = try! String(contentsOfFile: "/Users/vincent/XCode/AOC2021/AOC2021/inputs/dayThree.txt")
+        let rawInput = try! String(contentsOfFile: "/Users/dereq/Developer/AdventOfCode/AOC2021/Inputs/dayThreeInput.txt")
             .removeEmptySpace()
             .separateByNewLine()
         
@@ -32,7 +32,7 @@ extension AdventOfCode {
         //partTwo
         var filteredInput: [String] = rawInput
         var selector = ""
-        let reading: Reading = .co2
+        let reading: Reading = .oxygen
         
         for index in 0..<12 {
             var sum = 0

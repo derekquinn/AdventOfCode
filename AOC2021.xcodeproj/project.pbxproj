@@ -35,9 +35,7 @@
 
 /* Begin PBXFileReference section */
 		BF7428CD275883B400A7E13E /* AOC2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2021; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF7428DA27588B7000A7E13E /* dayTwo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dayTwo.txt; sourceTree = "<group>"; };
 		BF7428DB275929C500A7E13E /* AdventOfCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode.swift; sourceTree = "<group>"; };
-		BF7428E127592AA000A7E13E /* dayOne.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayOne.txt; sourceTree = "<group>"; };
 		BF7428E527592C5500A7E13E /* DayTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwo.swift; sourceTree = "<group>"; };
 		BF7428E72759318C00A7E13E /* DayThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayThree.swift; sourceTree = "<group>"; };
 		BF7428FD27593CD700A7E13E /* Sources */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sources; sourceTree = SOURCE_ROOT; };
@@ -45,14 +43,12 @@
 		BF74290227593D5400A7E13E /* DayOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOne.swift; sourceTree = "<group>"; };
 		BF74290927593D7700A7E13E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		BF74290A27593D7700A7E13E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		BF74290C27593D7700A7E13E /* dayThree.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayThree.txt; sourceTree = "<group>"; };
-		BF93B16A275B2E77008C2052 /* dayFour.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayFour.txt; sourceTree = "<group>"; };
 		BF93B16B275B2E87008C2052 /* DayFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFour.swift; sourceTree = "<group>"; };
 		BF93B16D275B3306008C2052 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		BF93B16F275C7E2D008C2052 /* DayFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFive.swift; sourceTree = "<group>"; };
-		BF93B171275C7EC6008C2052 /* dayFive.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayFive.txt; sourceTree = "<group>"; };
 		BF93B172275DD009008C2052 /* DaySix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySix.swift; sourceTree = "<group>"; };
-		BF93B174275DD038008C2052 /* daySix.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = daySix.txt; sourceTree = "<group>"; };
+		C413B206275F11A00078E69F /* dayFourInput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayFourInput.txt; sourceTree = "<group>"; };
+		C413B207275F13200078E69F /* dayFiveInput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayFiveInput.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +102,8 @@
 		BF7428E427592C2200A7E13E /* Inputs */ = {
 			isa = PBXGroup;
 			children = (
-				BF74290C27593D7700A7E13E /* dayThree.txt */,
-				BF7428DA27588B7000A7E13E /* dayTwo.txt */,
-				BF93B16A275B2E77008C2052 /* dayFour.txt */,
-				BF7428E127592AA000A7E13E /* dayOne.txt */,
-				BF93B171275C7EC6008C2052 /* dayFive.txt */,
-				BF93B174275DD038008C2052 /* daySix.txt */,
+				C413B206275F11A00078E69F /* dayFourInput.txt */,
+				C413B207275F13200078E69F /* dayFiveInput.txt */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -248,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -303,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -316,7 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8J34B2C37G;
+				DEVELOPMENT_TEAM = 9DX4A5R33C;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -327,7 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8J34B2C37G;
+				DEVELOPMENT_TEAM = 9DX4A5R33C;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

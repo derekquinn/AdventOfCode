@@ -12,7 +12,7 @@ extension AdventOfCode {
     public func dayFour() {
         
         //partOneAndTwo
-        let input = try! String(contentsOfFile: "/Users/vincent/XCode/AOC2021/AOC2021/inputs/dayFour.txt")
+        let input = try! String(contentsOfFile: "/Users/dereq/Developer/AdventOfCode/AOC2021/Inputs/dayFourInput.txt")
         
         let lineInput = input.removeEmptySpace().separateByNewLine()
         
